@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anarfa Consultoria - Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+<body>
+    <!--Cabeçalho do site-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="img/logo.png" alt="Logotipo Anarfa" />
+        </a>
+        <!--Menu do site-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Somos Anarfa</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!--Imagem das páginas internas-->
+    <div id="imagem-interna">
+        <span>Fale Conosco</span>
+    </div>
+
+    <!--Conteúdo (miolo) do site-->
+    <div id="container">
+        <div id="contato-conteudo">
+            <div id="dados-contato">
+                <h2>Quer falar conosco?</h2>
+                <p>
+                    Preencha o formulário abaixo para nos enviar uma 
+                    mensagem. Responderemos o mais breve possível.
+                </p>
+                <form id="frm-contato" action="#">
+                    <input type="text" placeholder="Nome da empresa" required />
+                    <input type="text" placeholder="Seu nome" required />
+                    <input type="email" placeholder="mail@mail.com.br" required />
+                    <input type="tel" placeholder="(99) 99999-9999" required />
+                    <textarea rows="10" placeholder="Sua mensagem aqui"></textarea>
+
+                    <div id="frm-buttons">
+                        <button id="botao-enviar" type="submit">
+                            Enviar
+                        </button>
+                        <button id="botao-apagar" type="reset">
+                            Apagar
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.3974093010647!2d-48.54874652646707!3d-22.489268023079486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7459baabaa92b%3A0xd1b954a115160672!2sEtec%20Comendador%20Jo%C3%A3o%20Rays!5e0!3m2!1spt-BR!2sbr!4v1746660039296!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>  
+    </div>
+
+    <!--Rodapé do site-->
+    <footer>
+        <p>
+            <span>Anarfa Consultoria</span> <br />
+            Rua dos Anarfa, 35 - Anarfalópolis - SP <br />
+            Telefone: (14) 99999-9999
+        </p>
+    </footer>
+    
+</body>
+</html>
